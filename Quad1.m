@@ -2,7 +2,7 @@ clc
 clearvars
 close all
 
-data = xlsread('Tarek Deifs Quad','B2:B9');
+data = xlsread('Quad_data','B2:B9');
 
 Quad.m = data(1); Ixx = data(2); Iyy = data(3); Izz = data(4);
 g = data(5); Quad.b = data(6); Quad.d = data(7); Quad.l = data(8);
